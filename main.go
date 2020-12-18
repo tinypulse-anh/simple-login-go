@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	router := Router.Init()
+	router := routes.Init()
 	models.Init()
 	router.Run()
 }
