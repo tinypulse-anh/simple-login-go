@@ -9,5 +9,5 @@ import (
 func main() {
 	router := routes.Init()
 	models.Init()
-	router.Run()
+	router.Run(":3000")
 }
